@@ -1,0 +1,91 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: #eee;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: #E4F9F4;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius:70%;
+    float: left;
+}
+.identity{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.contact-info{
+    float: right;
+    padding: 30px;
+}
+.contact-info p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact-info a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.div-clear{
+    clear:both;
+}
+.hr-1{
+    border: solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.div-left{
+    float: left;
+    width: 30%;
+}
+.div-right{
+    float: right;
+    width:70%;
+}
+hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.div-left-2{
+    float: left;
+    width: 40%;
+}
+.footer-contact{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-contact a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 30px;
+    font-size: larger;
+}
+.footer-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.footer-contact p{
+    color: whitesmoke;
+    margin-top: 15px;
+
+}
+.footer-contact p span{
+    font-size: 6;
+}
